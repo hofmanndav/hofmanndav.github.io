@@ -17,5 +17,6 @@ url: "http://davidhofmann.cz" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  hofmanndav
 
+
 # Build settings
 markdown: kramdown

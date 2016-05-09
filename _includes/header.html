@@ -1,20 +1,22 @@
 <div class="container_12">
   <div class="padding_1"></div>
-  <h1>David Hofmann<span id="motto">Director of photography</span></h1>
+  <h1 onclick="javascript:window.location.href='/'">David Hofmann<span id="motto">Director of photography</span></h1>
 </div>
 <div class="container_12">
   <div class="padding_1"></div>
   <div class="grid_12 center menu">
     <ul>
-      <li><a href="">Commercials</a></li>
-      <li class="sep">/</li>
-      <li><a href="">Music videos</a></li>
-      <li class="sep">/</li>
-      <li><a href="">Fashion videos</a></li>
-      <li class="sep">/</li>
-      <li><a href="">Shortfilms</a></li>
-      <li class="sep">/</li>
-      <li><a href="">Photography</a></li>
+      {% for category in site.categories %}
+      {% capture categoryName %}{{ category | first }}{% endcapture %}
+      <li>
+        <a href="/{{ categoryName }}"
+           {% if page.category == categoryName %}style="font-weight: bold"{% endif %}>
+          {{ categoryName }}
+        </a>
+      </li>
+      {% if forloop.last %}{% else %}<li class="sep">/</li>{% endif %}
+      {% endfor %}
+
     </ul>
   </div>
 </div>
