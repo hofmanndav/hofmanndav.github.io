@@ -1,0 +1,70 @@
+body {
+    background: #fff;
+    color: #333;
+    font-size: 11px;
+    height: auto;
+    padding-bottom: 20px;
+    font-family: 'Open Sans', Sans-Serif;
+}
+
+a {
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #999999;
+}
+
+h1 {
+    font-weight: 300;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+#motto {
+    font-size: 12px;
+    font-weight: 800;
+    display: block;
+    letter-spacing: 12px;
+    margin-left: -7px;
+}
+
+.center {
+    text-align: center;
+}
+.menu ul li {display: inline}
+div.video {
+    width: 600px;
+    margin: auto;
+    background: #eee;
+}
+h2 {
+    font-size: 13px;
+    padding: 0 5px;
+    margin: 0;
+    text-align: left;
+}
+
+p {
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.container_12,
+.container_16,
+.container_24 {
+    background-color: #fff;
+    background-repeat: repeat-y;
+    margin-bottom: 20px;
+}
+/**\/
+.container_12 {background-image: url(../img/12_col.gif);}
+.container_16 {background-image: url(../img/16_col.gif);}
+.container_24 {background-image: url(../img/24_col.gif);}
+/**/
+.padding_1 {padding-top: 20px}
+.blue {color:#00B2EE}
