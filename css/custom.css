@@ -7,6 +7,14 @@ body {
     font-family: 'Open Sans', Sans-Serif;
 }
 
+h1 {
+    cursor: pointer;
+}
+
+div.menu ul li:first-child {
+    margin-left: 0;
+}
+
 a {
     letter-spacing: 1px;
     font-size: 12px;
