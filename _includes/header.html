@@ -8,6 +8,70 @@
   <div class="grid_12 center menu">
 
     <ul>
+      
+      <!-- Commercial -->
+      <li>
+        <a href="/Commercial"
+           {% if page.category == 'Commercial' %}style="font-weight: bold"{% endif %}>
+          Commercial
+        </a>
+      </li>
+      <li class="sep">/</li>
+      
+      <!-- Music -->
+      <li>
+        <a href="/Music"
+           {% if page.category == 'Music' %}style="font-weight: bold"{% endif %}>
+          Music
+        </a>
+      </li>
+      <li class="sep">/</li>
+      
+      <!-- Short -->
+      <li>
+        <a href="/Short"
+           {% if page.category == 'Short' %}style="font-weight: bold"{% endif %}>
+          Short
+        </a>
+      </li>
+      <li class="sep">/</li>
+      
+      <!-- Fashion -->
+      <li>
+        <a href="/Fashion"
+           {% if page.category == 'Fashion' %}style="font-weight: bold"{% endif %}>
+          Fashion
+        </a>
+      </li>
+      <li class="sep">/</li>
+      
+      <!-- Documentary -->
+      <li>
+        <a href="/Documentary"
+           {% if page.category == 'Documentary' %}style="font-weight: bold"{% endif %}>
+          Documentary
+        </a>
+      </li>
+      <li class="sep">/</li>
+      
+      <!-- Photography -->
+      <li>
+        <a href="/Photography"
+           {% if page.category == 'Photography' %}style="font-weight: bold"{% endif %}>
+          Photography
+        </a>
+      </li>
+      <li class="sep">/</li>
+      
+      <!-- Bio -->
+      <li>
+        <a href="/Bio"
+           {% if page.category == 'Bio' %}style="font-weight: bold"{% endif %}>
+          Bio
+        </a>
+      </li>
+      
+      <!--
       {% for category in site.categories %}
       {% capture categoryName %}{{ category | first }}{% endcapture %}
       <li>
@@ -18,7 +82,7 @@
       </li>
       {% if forloop.last %}{% else %}<li class="sep">/</li>{% endif %}
       {% endfor %}
-
+      -->
     </ul>
   </div>
 </div>
