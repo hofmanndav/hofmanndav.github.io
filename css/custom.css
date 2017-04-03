@@ -76,3 +76,7 @@ p {
 /**/
 .padding_1 {padding-top: 20px}
 .blue {color:#00B2EE}
+.image {
+    text-align: center;
+    margin-bottom: 50px;
+}
